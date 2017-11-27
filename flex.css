@@ -42,3 +42,9 @@ body {
 .box10 {
     width: 33.1%;
 }
+
+@media screen and (max-width:480px) {
+    [class^="box"] {
+        width: 100%;
+    }
+}
